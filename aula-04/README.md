@@ -1,0 +1,1 @@
+na aula 4 nós aprendemos um pouco de CSS criamos dois documentos HTML um com o nome de css-interno.html e outro com o nome css-externo.html, começamos editando o arquivo arquivo interno criamos uma pagina basica em css e depois no arquivo externo criamos a estrutura escrita da pagina e em uma aba style.css criamos as cores e demos forma a escrita.
