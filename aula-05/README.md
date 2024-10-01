@@ -1,0 +1,1 @@
+na aula 05 nós aprendemos difgerentes tipos de borda, a controlar as bordas nas divs em css, aprendemos a manipular tamanhos e por ultimo aprendemos a manipular as divs pai e filho.
