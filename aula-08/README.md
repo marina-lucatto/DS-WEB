@@ -1,0 +1,1 @@
+Nessa aula aprendemos as classes da div e fizemos um trabalho de tabela.

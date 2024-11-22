@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .button-hover:hover{
+            background-color: lightgreen;
+            width: 100px;
+            height: 100px;
+        }
+        .button-active:active{
+            transform: scale(0.95);
+        }
+        .inout-focus:focus{
+            border-color: lawngreen;
+        }
+        .radio-checked:checked{
+            transform: scale(1.5);
+        }
+        .checkbox-checked:checked{
+            transform: scale(1.5);
+        }
+        a:link{
+            color:lawngreen
+        }
+        a:visited{
+            color: lawngreen;
+        }
+
+        .div-vazia{
+            height: 100px;
+            width: 100px;
+            background-color: lightgreen;
+        }
+
+        div:empty{
+            display: none;
+        }
+    </style>
+    <div>
+        <h3>exemplo de houver</h3>
+        <button class="button-hover">Clique aqui!</button>
+    </div>
+    <div>
+        <h3>exemplo de active</h3>
+        <button class="button-active">clique aqui!</button>
+    </div>
+    <div>
+        <h3>exemplo de focus</h3>
+        <input class="botton-focus" placeholder="clique aqui!">
+    </div>
+    <div>
+        <h3>exemplo de checked</h3>
+        <label>radio button</label>
+        <input type="radio" class="radio-checked"><input type="radio" class="radio-checked">
+        <label>checkbox</label>
+        <input type="checkbox">
+    </div>
+
+    <div>
+        <h3>exemplo de pseudoclasses para link</h3>
+        <a href="#">link 1</a>
+        <a href="#">link 2</a>
+        <a href="#">link 3</a>
+        <a href="#">link 4</a>
+        <a href="#">link 5</a>
+        <a href="#">link 6</a>
+        <a href="#">link 7</a>
+        <a href="#">link 8</a>
+        <a href="#">link 9</a>
+        <a href="#">link 10</a>
+    </div>
+
+    <div class="div-vazia"></div>
+
+
+</body>
+</html>
