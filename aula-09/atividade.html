@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(45deg, #9ab5ff, #b5f7c2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100vh;
+        }
+
+        .transição {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 20px;
+        width: 100px;
+        height: 100px;
+        background-color: #34db6e;
+        transition: background-color 0.5s ease, transform 0.5s ease;
+        }
+        .transição:hover {
+        background-color: #229a17;
+        transform: scale(1.2);
+        }
+
+        .rodar {
+        margin: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-color: #34db6e;
+        transition: transform 0.5s;
+        }
+        .rodar:hover {
+        transform: rotate(45deg);
+        }
+
+        .anda {
+        margin: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-color: #34db6e;
+        transition: transform 0.5s;
+        }
+        .anda:hover {
+        transform: translate(50px, 50px);
+        }
+
+        .bola {
+        margin: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-color: #34db6e;
+        border-radius: 50%;
+        }
+
+        .opacidade {
+        margin: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-color: #34db6e;
+        opacity: 1;
+        transition: opacity 0.5s;
+
+        }
+        .opacidade:hover {
+        opacity: 0;
+        }
+
+        @keyframes moverEfeito {
+        0% {
+        transform: translateX(0);
+        background-color: #34db6e;
+        }
+        50% {
+        transform: translateX(200px);
+        background-color: yellow;
+        }
+        100% {
+        transform: translateX(0);
+        background-color: #34db6e;
+        }
+        }
+        .animado {
+        margin: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-color: #34db6e;
+        animation: moverEfeito 4s ease-in-out infinite;
+        }
+
+        </style>
+        </head>
+
+
+<body>
+<div class="transição">Transition</div>
+<div class="rodar">Rotate</div>
+<div class="anda">Transform</div>
+<div class="bola">Border</div>
+<div class="opacidade">Opacity</div>
+<div class="animado">Animation</div>
+</body>
+</html>
