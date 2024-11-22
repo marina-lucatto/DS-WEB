@@ -1,0 +1,1 @@
+nessa aula aprendemos sobre animações de transição de cor, girar, movimentar, tirar as bordas, tirar a opacidade e animar uma div. Depois fizemos uma atividade utilizando tudo que aprendemos e adicionando um texto no meio da div.
