@@ -1,1 +1,0 @@
-aprendemos a criar listas numeradas e não numeradas, lista de definição, criamos elementos em nivel de bloco,criamos um div,apredemos tipos de entradas de dados (tipo texto,numero,password,value,radio,checkbox,botton,submit) por ultimo criamos uma aba de cadastro com diferentes tipos de campo como nome de usuario,value,placeholder,required,maxlength,disabled.
