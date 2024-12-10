@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form, table {
+    background: plum;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(170, 34, 56);
+    color: rgb(29, 15, 15);
+    border: none;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: skyblues;
+}
