@@ -15,3 +15,4 @@
 var numero1= Number.parseInt(prompt("digite o primeiro numero"))
 var numero2= Number.parseInt(prompt("digite o segundo numero"))
 console.log(typeof(numero1))
+alert(numero1 + numero2)

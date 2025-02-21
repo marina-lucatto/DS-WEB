@@ -1,0 +1,1 @@
+não liguem pra fofoca!
