@@ -8,7 +8,7 @@
 
         $query = "INSERT INTO usuarios (nome, email, senha) VALUES ('$nome', '$email', '$senha')";
         if (mysqli_query($conn, $query)) {
-            echo "Usuário cadastrado com sucesso!";
+            echo "Usuario cadastrado com sucesso!";
         } else {
             echo "Erro: " . mysqli_error($conn);
         }

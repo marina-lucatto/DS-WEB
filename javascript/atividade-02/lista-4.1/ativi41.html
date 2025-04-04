@@ -1,0 +1,43 @@
+|<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Insira seu nome!</h2>
+    <p>nome Completo:</p>
+    <input type="text" id="nome">
+    <br>
+    <button onclick="sauldar()">Enviar</button>
+    <br>
+    <h2 id="mensagem"></h2>
+    <script src="script.js"></script>
+  <br><br>
+  <input type="number" id="numberInput" placeholder="Digite um número">
+  <button onclick="verificarParidade()">Verificar Par/Ímpar</button>
+  <p id="paridadeResultado"></p>
+  <br><br>
+  <input type="text" id="textInput" placeholder="Digite um texto">
+  <button onclick="converterMaiusculas()">Converter</button>
+  <p id="textoConvertido"></p>
+  <br><br>
+  <input type="number" id="valorInput" placeholder="Valor">
+  <input type="number" id="porcentagemInput" placeholder="%">
+  <button onclick="calcularAcrescimo()">Calcular Acréscimo</button>
+  <p id="acrescimoResultado"></p>
+  <br><br>
+  
+  <button onclick="mudarCorDiv()">Mudar Cor</button>
+  <div id="colorDiv"></div>
+  <style>
+    #colorDiv {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(0, 0, 0);
+        margin-top: 10px;
+    }
+</style>
+</body>
+</html>

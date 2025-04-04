@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business System - Clientes </title>
+    <title>Alterar clientes </title>
     <link rel="shortcut icon" type="imagex/png" href="./assets/img/ico.svg">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -24,7 +24,7 @@
 
 
     <div class="container">
-        <hr>
+    
         <?php  
         if($_SERVER['REQUEST_METHOD'] != 'GET' OR !isset($_GET['id'])){
             header("Location: produtos.php");
@@ -42,9 +42,9 @@
 
             $idCliente = $dados['id'];
             $nome = $dados['nome'];
-            $valor = $dados['valor'];
-            $estoque = $dados['estoque'];
             $codigo = $dados['codigo'];
+            $estoque = $dados['estoque'];
+            $preco = $dados['preco'];
 
 
 
@@ -57,20 +57,20 @@
                 <label for="nome">Nome do produto: </label>
                 <input type="text" name="nome" id="nome" value="<?= $nome;?>">
             
+                <label for="codigo">Código: </label>
+                <input type="text" name="codigo" id="codigo" value="<?= $codigo;?>">
 
 
-                <label for="valor">Valor do produto: </label>
-                <input type="text" name="valor" id="valor" value="<?= $valor;?>">
     
 
 
                 <label for="estoque">Estoque do produto: </label>
                 <input type="text" name="estoque" id="estoque" value="<?= $estoque;?>">
 
+                <label for="preco">Valor do produto: </label>
+                <input type="text" name="preco" id="preco" value="<?= $preco;?>">
 
-
-                <label for="codigo">Código: </label>
-                <input type="text" name="codigo" id="codigo" value="<?= $codigo;?>">
+               
               
                 <input type="submit">
 
@@ -81,9 +81,10 @@
     
 
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <br><br>
+    
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="./assets/js/script.js"></script>
 <script src="https://kit.fontawesome.com/128c4fe943.js" crossorigin="anonymous"></script>
 </html>

@@ -13,7 +13,7 @@
     $observacao = $_POST['observacao'];
     
 
-    if (!$id || !$nome || !$email || !$observacao) {
+    if (!$id || !$nome || !$email) {
         echo "<script>
                 alert('Todos os campos são obrigatórios.');
                 window.location.href = 'clientes.php';
